@@ -1,0 +1,29 @@
+# Mahleat Kidanemariam
+# 11/8/2020
+# This program prints 10 random numbers between 25 and 35.
+import random
+import math
+def gen_random_number():
+ for R in range(10):
+    print(random.randint(25, 35))
+# Mahleat Kidanemariam
+# 11/8/2020
+# This program displys a random odd number from 0-100.
+def gen_random_odd():
+
+ print(random.randrange(0, 100, 1))
+# Mahleat Kidanemariam
+# 11/8/2020
+# This program displays a random number from the following list
+def gen_random_parameter():
+ R = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+ print(random.choice(R))
+# Mahleat Kidanemariam
+# 11/8/2020
+# This program calculates the pathagorean theorm.
+def gen_pythogorean():
+ a = int(input("Enter A"))
+ b = int(input("Enter B"))
+ num = math.pow(a, 2) + math.pow(b, 2)
+ sum = math.sqrt(num)
+ print(sum)
